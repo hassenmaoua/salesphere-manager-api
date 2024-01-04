@@ -1,0 +1,28 @@
+const colors = [
+  { label: 'argent', hexCode: 'C0C0C0' },
+  { label: 'beige', hexCode: 'F5F5DC' },
+  { label: 'bleu ciel', hexCode: '87CEEB' },
+  { label: 'bleu marine', hexCode: '000080' },
+  { label: 'bleu roi', hexCode: '0000FF' },
+  { label: 'bleu turquoise', hexCode: '00CED1' },
+  { label: 'brun', hexCode: 'A52A2A' },
+  { label: 'gris', hexCode: '808080' },
+  { label: 'gris foncé', hexCode: '2F4F4F' },
+  { label: 'jaune', hexCode: 'FFFF00' },
+  { label: 'mauve', hexCode: 'E0B0FF' },
+  { label: 'orangé', hexCode: 'FFA500' },
+  { label: 'pourpre', hexCode: '800080' },
+  { label: 'rose claire', hexCode: 'FFB6C1' },
+  { label: 'rose fushia', hexCode: 'FF007F' },
+  { label: 'rouge', hexCode: 'FF0000' },
+  { label: 'rouge foncé', hexCode: '8B0000' },
+  { label: 'turquoise', hexCode: '40E0D0' },
+  { label: 'vert gazon', hexCode: '008000' },
+  { label: 'vert militaire', hexCode: '556B2F' },
+  { label: 'vert olive', hexCode: '808000' },
+  { label: 'violet', hexCode: '8A2BE2' },
+  { label: 'blanc', hexCode: 'FFFFFF' },
+  { label: 'or', hexCode: 'FFD700' },
+];
+
+module.exports = colors;
