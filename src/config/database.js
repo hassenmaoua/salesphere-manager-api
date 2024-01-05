@@ -1,7 +1,8 @@
 const Sequelize = require('sequelize');
 
 // Create and configure the Sequelize instance
-sequelize = new Sequelize(process.env.DATABASE_URL, {
+const sequelize = new Sequelize(process.env.DATABASE_URL, {
+  dialect: 'postgres',
   pool: {
     max: Number(process.env.POOL_MAX),
     min: Number(process.env.POOL_MIN),
